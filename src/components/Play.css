@@ -8,6 +8,9 @@
     width: 200px;
     cursor: pointer;
     background-color: white;
+    position: relative;
+    top : -50px;
+        
 }
 
 .btn2{
@@ -20,6 +23,8 @@
     width: 200px;
     cursor: pointer;
     background-color: white;
+    position: relative;
+    top : 200px;
 }
 
 .btn3{
@@ -32,6 +37,8 @@
     width: 200px;
     cursor: pointer;
     background-color: white;
+    position: relative;
+    top : -50px;
 }
 img{
     height: 100px;
