@@ -78,7 +78,7 @@ class App extends Component {
           computerChoice={this.state.computerChoice}
         />
 
-      </div>
+      </div>   
     );
   }
 }

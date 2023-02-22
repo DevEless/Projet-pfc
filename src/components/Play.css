@@ -1,0 +1,36 @@
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 10px orange;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 10px red;
+    border-radius: 50%;
+    height: 200px; 
+    width: 200px;
+    cursor: pointer;
+}
+
+.btn3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 10px blue;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+img{
+    height: 100px;
+
+}  
