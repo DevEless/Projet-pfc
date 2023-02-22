@@ -18,6 +18,7 @@ class Result extends Component {
     );
   }
 
+
 }
 
 export default Result;

@@ -10,9 +10,9 @@ class Display extends Component {
         const userChoice = this.props.userChoice;
         const computerChoice = this.props.computerChoice;
 
-        const userImage = <img className='img-responsive user' src={userChoice === 0 ? pierre : userChoice === 1 ? feuille : userChoice === 2 ? ciseaux : undefined} alt='Objet joué' />;
+        const userImage = <img className='img-responsive user' src={userChoice === 0 ? pierre : userChoice === 1 ? feuille : userChoice === 2 ? ciseaux : undefined} alt='' />;
 
-        const computerImage = <img className='img-responsive computer' src={computerChoice === 0 ? pierre : computerChoice === 1 ? feuille : computerChoice === 2 ? ciseaux : undefined} alt='Objet joué' />;
+        const computerImage = <img className='img-responsive computer' src={computerChoice === 0 ? pierre : computerChoice === 1 ? feuille : computerChoice === 2 ? ciseaux : undefined} alt='' />;
 
         return (
             <div className='columns'>
