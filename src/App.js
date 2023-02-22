@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import './App.css';
 import Play from './components/Play';
 import Display from './components/Display';
@@ -82,5 +82,12 @@ class App extends Component {
     );
   }
 }
+
+
+
+
+
+
+
 
 export default App;

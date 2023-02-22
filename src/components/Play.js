@@ -8,12 +8,30 @@ import './Play.css';
 class Play extends Component {
     handleClick(e) {
         const value = e.target.textContent;
-        this.props.setChoice(value);
+        this.props.setChoice(value); 
+
+
+        const btn1 = document.querySelector('.btn1');
+        const btn2 = document.querySelector('.btn2');
+        const btn3 = document.querySelector('.btn3');
+
+        btn1.classList.add('vanish');
+        btn2.classList.add('vanish');
+        btn3.classList.add('vanish');
+
+        setTimeout(() => {
+            btn1.classList.remove('vanish');
+            btn2.classList.remove('vanish');
+            btn3.classList.remove('vanish');
+        }, 2000);
+
+
+        
     }
 
     render() {
         return (
-            <div className='btn-group btn-group-block'>
+            <div id='chiant'>
                 <button className='btn1' onClick={this.handleClick.bind(this)}><img src={pierre}></img></button>
                 <button className='btn2' onClick={this.handleClick.bind(this)}><img src={feuille}></img></button>
                 <button className='btn3' onClick={this.handleClick.bind(this)}><img src={ciseaux}></img></button>
