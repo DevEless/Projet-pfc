@@ -27,3 +27,16 @@
     align-items: center;
   }
     
+.App{
+  display: flex;
+  justify-content: center;
+}
+  .container{
+    position: absolute;
+    border: solid 1px rgb(255, 254, 254);
+    border-radius: 15px;
+    z-index: 1;
+    height: 150px;
+    width: 750px;
+    margin-top: 2%;
+  }

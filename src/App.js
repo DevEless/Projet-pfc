@@ -38,7 +38,7 @@ class App extends Component {
 
   setChoice(value){
     this.setState({
-      userChoice: (value === 'Pierre') ? 0 : (value === 'Feuille') ? 1 : 2,
+      userChoice: (value === 'pierre') ? 0 : (value === 'feuille') ? 1 : 2,
       computerChoice: Math.floor(Math.random() * 3)
     }, () => this.compareChoice());
   }
@@ -56,13 +56,25 @@ class App extends Component {
           computerChoice: -1,
           onPause: false
         });
-      }, 2500);
+      }, 3000);
     }
   }
 
   render() {
     return (
       <div className="App">
+
+        <div className='container'>
+          <div className='row'>
+            <div className='col'>
+
+              </div>
+            <div className='col'>
+              </div>
+
+
+          </div>
+        </div>
 
         {!this.state.onPause &&
           <Play setChoice={this.setChoice.bind(this)}/>

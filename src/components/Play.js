@@ -7,8 +7,22 @@ import './Play.css';
 
 class Play extends Component {
     handleClick(e) {
-        const value = e.target.textContent;
+
+        let value = e.target.value;
+        if (e.target.classList.contains('btn1')) {
+            value = 'pierre';
+        }
+        if (e.target.classList.contains('btn2')) {
+            value = 'feuille';
+        }
+        if (e.target.classList.contains('btn3')) {
+            value = 'ciseaux';
+        }
+        
         this.props.setChoice(value); 
+
+        const div1 = document.getElementById('zot');
+        const div2 = document.getElementById('zot2');
 
 
         const btn1 = document.querySelector('.btn1');
@@ -19,11 +33,19 @@ class Play extends Component {
         btn2.classList.add('vanish');
         btn3.classList.add('vanish');
 
+        div1.classList.remove('vanish');
+        div2.classList.remove('vanish');
+
+        div1.classList.add('fun1');
+        div2.classList.add('fun2');
+
         setTimeout(() => {
             btn1.classList.remove('vanish');
             btn2.classList.remove('vanish');
             btn3.classList.remove('vanish');
-        }, 2000);
+            div1.classList.remove('fun1');
+            div2.classList.remove('fun2');
+        }, 3000);
 
 
         
