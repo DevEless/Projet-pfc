@@ -1,0 +1,22 @@
+body{
+    background:#192648;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.nice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 120px;
+    width: 250px;
+    border: solid 1px rgb(255, 254, 254);
+    border-radius: 15px;
+    margin-top: 2%;
+}

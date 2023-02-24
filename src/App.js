@@ -76,7 +76,6 @@ class App extends Component {
   }
   
   render() {
-    const { isOpen } = this.state;
     
     return (
       
@@ -99,7 +98,7 @@ class App extends Component {
 
 
           </div>
-        <button className='oui' onClick={this.handleOpenModal}>Open Modal</button>
+        <button className='oui' onClick={this.handleOpenModal}>Rules</button>
         <Modal show={this.state.showModal} handleClose={this.handleCloseModal}>
           <img className='yepp' src={regle}></img>
         </Modal>
