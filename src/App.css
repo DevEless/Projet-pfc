@@ -82,3 +82,73 @@
   height: 98%;
   width: 100%;
 }
+
+
+@media screen and (max-width: 385px) {
+  .container{
+    width: 80%;
+  }
+  body{
+    text-align: center;
+  }
+  .row{
+    flex-direction: column;
+  }
+  .box{
+    width: 100%;
+    height: 50px;
+  }
+  .oui{
+    top: 550px;
+    left: -30px;
+  }
+ .btn1{
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .btn2{
+    width: 100px !important;
+    height: 100px !important;
+    margin-top: -40% !important;
+  }
+  .fun1{
+    width: 100px !important;
+    height: 100px !important;
+    margin: 0px !important;
+    right: 185px!important;
+    top: 100px;
+
+  }
+  .fun2{
+    width: 100px !important;
+    height: 100px !important;
+    margin: 0 !important;
+    right: 80px !important;
+    top: 100px;
+
+  }
+  .btn3{
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .img{
+    height: 50px !important;
+
+  }
+  .ag{
+    height: 50px !important;
+  }
+  .yepp{
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .modal-main{
+    width: 100% !important;
+    height: 60% !important;
+  }
+  .btnclose{
+
+    border: none !important;
+  }
+}
+  

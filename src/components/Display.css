@@ -5,17 +5,7 @@
     justify-content: center; 
     
 }
-.test{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 10px red;
-    border-radius: 50%;
-    height: 200px; 
-    width: 200px;
-    cursor: pointer;
-    background-color: white;
-}
+
 
 .vanish{
     display: none;

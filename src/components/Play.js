@@ -55,9 +55,9 @@ class Play extends Component {
         return (
             
             <div id='chiant'>
-                <button className='btn1' onClick={this.handleClick.bind(this)}><img src={pierre}></img></button>
-                <button className='btn2' onClick={this.handleClick.bind(this)}><img src={feuille}></img></button>
-                <button className='btn3' onClick={this.handleClick.bind(this)}><img src={ciseaux}></img></button>
+                <button className='btn1' onClick={this.handleClick.bind(this)}><img className='img' src={pierre}></img></button>
+                <button className='btn2' onClick={this.handleClick.bind(this)}><img className='img' src={feuille}></img></button>
+                <button className='btn3' onClick={this.handleClick.bind(this)}><img className='img' src={ciseaux}></img></button>
             </div>
         );
     }
