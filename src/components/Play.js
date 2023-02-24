@@ -53,6 +53,7 @@ class Play extends Component {
 
     render() {
         return (
+            
             <div id='chiant'>
                 <button className='btn1' onClick={this.handleClick.bind(this)}><img src={pierre}></img></button>
                 <button className='btn2' onClick={this.handleClick.bind(this)}><img src={feuille}></img></button>

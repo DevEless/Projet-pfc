@@ -33,8 +33,7 @@ class Display extends Component {
         return (
             <div className='columns'>
                 <div className='column col-2 col-mx-auto text-center'>
-                    <h1 id='user'>YOU</h1>
-                    <h2>{this.props.userResult}</h2>
+
                     <div id='zot'>
                     {userChoice !== -1 && userImage}
                     
@@ -42,8 +41,7 @@ class Display extends Component {
                 </div>
 
                 <div className='column col-2 col-mx-auto text-center'>
-                    <h1 id='computer' className='computer'>COMPUTER</h1>
-                    <h2 className='computer'>{this.props.computerResult}</h2>
+
                     <div id='zot2'>
                     {computerChoice !== -1 && computerImage}
                         </div>
@@ -57,6 +55,3 @@ class Display extends Component {
 export default Display;
 
 
-// {userChoice !== -1 && userImage}
-
-// {computerChoice !== -1 && computerImage}

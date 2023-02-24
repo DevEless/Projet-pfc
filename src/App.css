@@ -40,3 +40,40 @@
     width: 750px;
     margin-top: 2%;
   }
+  .row{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .white
+  {
+    color: white;
+    font-size: 130%;
+  }
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+  height: 120px;
+  width: 120px;
+  border-radius: 5px;
+}
+.ez{
+  color: rgb(0, 0, 58);
+}
+.ezy{
+  color:black;
+  font-size: 140%;
+}
+.oui{
+  z-index: 1;
+  position: absolute;
+  top:680px;
+}
+.yepp{
+  height: 98%;
+  width: 100%;
+}

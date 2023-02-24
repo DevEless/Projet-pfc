@@ -2,7 +2,8 @@
     position:relative;
     top: 122px;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    
 }
 .test{
     display: flex;
